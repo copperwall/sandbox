@@ -1,0 +1,29 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "This is just used for testing out stuff with the GitHub API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/copperwall/sandbox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/copperwall/sandbox/issues"
+  },
+  "homepage": "https://github.com/copperwall/sandbox#readme",
+  "devDependencies": {
+    "semantic-release": "^17.0.4"
+  },
+  "release": {
+    "branches": [
+      "master",
+      "next"
+    ]
+  }
+}
