@@ -1,5 +1,5 @@
 {
-  "name": "sandbox",
+  "name": "@copperwall/sandbox",
   "version": "1.0.0",
   "description": "This is just used for testing out stuff with the GitHub API.",
   "main": "index.js",
