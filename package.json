@@ -1,6 +1,6 @@
 {
   "name": "@copperwall/sandbox",
-  "version": "1.0.0",
+  "version": "1.4.0-DEV",
   "description": "This is just used for testing out stuff with the GitHub API.",
   "main": "index.js",
   "scripts": {
