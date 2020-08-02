@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: copperwall/checkout@testing
       - name: Install Dependencies
         run: yarn
       - name: Semantic Release
@@ -17,3 +17,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          ACTIONS_STEP_DEBUG: true
